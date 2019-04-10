@@ -1,5 +1,6 @@
 {
   "name": "grid-multiline-slider",
+  "author": "Alexander A Shinov <alexandershinov@gmail.com>",
   "version": "0.1.0",
   "private": true,
   "scripts": {

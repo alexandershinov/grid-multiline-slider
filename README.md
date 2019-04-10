@@ -1,29 +1,35 @@
 # grid-multiline-slider
 
-## Project setup
+Solid content slider laid out on grid layout.
+You can use it to show long content list. For example, list of books, films, info cards, etc.
+
+## Install :gift:
+coming soon
+
+don't use it now
 ```
-npm install
+npm i --save grid-multiline-slider
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Usage
+```vue
+<template>
+  <grid-multiline-slider column-gap="2rem" height="5rem">
+    <div class="slide0"></div>
+    <div class="slide1"></div>
+    <div class="slide2"></div>
+  </grid-multiline-slider>
+</template>
+
+<script>
+  import GridMultilineSlider from 'grid-multiline-slider';
+  
+  export default {
+    components: {
+      GridMultilineSlider
+    }
+  }
+</script>
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+If you don't use height property correctly, slider can contain a scrollbar.
